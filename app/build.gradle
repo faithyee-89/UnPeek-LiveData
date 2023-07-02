@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion appTargetSdk
+    compileSdk appTargetSdk
     defaultConfig {
         applicationId "com.kunminx.unpeeklivedata"
-        minSdkVersion 23
-        targetSdkVersion appTargetSdk
+        minSdk 23
+        targetSdk appTargetSdk
         versionCode appVersionCode
         versionName appVersionName
 
